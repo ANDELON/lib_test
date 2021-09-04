@@ -1,7 +1,8 @@
 [Project]
-name=construction_lib_test
-type=0
+name=lib_test
+type=3
 defaultConfig=0
+
 
 [Debug]
 // compiler 
@@ -26,7 +27,7 @@ optimizeLevel=0
 
 // linker
 libraryPath=
-outputFilename=Debug\construction_lib_test.exe
+outputFilename=Debug\lib_test.a
 libraries=
 extraLinkerOptions=
 ignoreStartupFile=0
@@ -64,7 +65,7 @@ optimizeLevel=2
 
 // linker
 libraryPath=
-outputFilename=Release\construction_lib_test.exe
+outputFilename=Release\lib_test.a
 libraries=
 extraLinkerOptions=
 ignoreStartupFile=0
@@ -80,14 +81,11 @@ resourceIncludeDirectory=
 extraResourceOptions=
 
 [Source]
-1=counter.cpp
-2=lib_test.cpp
-3=test_counter.cpp
+1=lib_test.cpp
 [Header]
-1=counter.hpp
-2=lib_test.hpp
+1=lib_test.hpp
 [Resource]
 [Other]
 [History]
-test_counter.cpp,334
-lib_test.hpp,290
+lib_test.hpp,346
+lib_test.cpp,541

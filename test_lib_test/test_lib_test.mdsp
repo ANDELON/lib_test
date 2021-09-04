@@ -87,6 +87,4 @@ extraResourceOptions=
 [Resource]
 [Other]
 [History]
-counter.hpp,0
-counter.cpp,20
-test_counter.cpp,411
+test_counter.cpp,849

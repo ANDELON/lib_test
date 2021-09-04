@@ -31,7 +31,7 @@ int main()
 	test.expect_equ(0, compteur.value(),"test.expect_equ(0, compteur.value()");
 	test.expect_equ(1, compteur.Incr(),"test.expect_equ(1, compteur.Incr()");
 	test.expect_equ(2, compteur.Incr(),"test.expect_equ(2, compteur.Incr()");
-	test.expect_equ(4, compteur.Incr(),"test.expect_equ(4, compteur.Incr()");
+	test.expect_equ(4, compteur.Incr(),"test.expect_equ(4, compteur.Incr(), valeur precedente 2");
 	
 	return 0;
 }
